@@ -1,0 +1,314 @@
+.bottom-main{
+    
+    background:url(../img/91449.png) no-repeat;
+    height: 700px;
+    margin-top: 11px;
+    background-size: cover;
+    background-position: center;
+    @media screen and (max-width:767px) {
+        display: none;
+    }
+}
+
+.btn-wrapper{
+        
+    padding-top: 41px;
+}
+.fas {
+    padding-left: 16px;
+}
+
+
+.title1{
+    color:$color-text-1;
+font-family: $font-bolt;
+font-size: 42px;
+font-weight: bold;
+text-transform: uppercase;
+padding-left: 74px;
+padding-top: 34px;
+}
+.cap-title{
+    text-transform: uppercase;
+font-weight: 600;
+color: #ffffff;
+font-size: 32px;
+font-family: $font-semi_bold;
+padding-left: 160px;
+}
+.text{
+    display: inline-block;
+color: #152656;
+font-size: 23px;
+font-family: $font-light;
+padding-left: 147px;
+justify-content: center;
+text-transform: uppercase;
+}
+.cap-text{
+    display: inline-block;
+color:#152656 ;
+font-size: 18px;
+padding-top: 16px;
+padding-left: 147px;
+font-family: $font-light;
+}
+.btn-order-wrap{
+    padding-top: 91px;
+padding-left: 351px;
+}
+.btn-order-now{
+cursor: pointer;
+width: 215px;
+height: 55px;
+border: 1px solid #ffffff;
+color: #ffffff;
+text-transform: uppercase;
+font-weight: bold;
+margin-top: 20px;
+background: #e84c3d;
+font-family: $font-bolt;
+border-radius: 4px;
+margin: 10px;
+}
+.btn-order-now:hover{
+    background:$color-primary-5;
+    color: $color-text-1;
+}
+.section1{
+    height: 50px;
+background:$color-primary-1;
+}
+.section1_text{
+    color: #ffffff;
+width: 100%;
+font-family: $font-bolt;
+font-size: 15px;
+padding-left: 50px;
+padding-top: 12px;
+}
+.the_of_d{
+    height: 32px;
+width: 36%;
+background:$color-primary-1;
+border: 1px solid #ffffff;
+margin-top: 10px;
+color: #ffffff;
+margin-left: 17%;
+border-radius: 4px;
+cursor: pointer;
+font-family: $font-light;
+}
+.the_of_d:hover{
+    background:$color-primary-4;
+}
+
+
+.title{
+    color: $color-text-5;
+    text-align: center;
+    font-family: $font-regular;
+    margin-top: 43px;
+    font-size: 35px;
+}
+.advantage_block{
+    width: 100%;
+    height: 160px;
+    background-color: $color-primary-6;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.advantage_block:hover{
+    background: $color-primary-4;
+}
+
+.advantage_text{
+    color: #59656d;
+    font-family: $font-regular;
+    text-transform: uppercase;
+    padding-top: 72px;
+}
+.advantage_text:hover{
+    color: $color-text-6;
+}
+h1{
+    color: $color-text-5;
+    font-family: $font-bolt;
+}
+.column-text{
+    column-count: 2;
+    column-gap: 30px;
+    -moz-column-count:2;
+    padding-bottom: 20px;
+   
+      
+    }
+   .text1{
+       margin: 0px;
+       text-align: justify;
+       color: $color-text-3;
+       font-family: $font-light;
+       font-size: 13px;
+        
+   } 
+   .fluid-how{
+       background: $color-primary-6;
+       height: 500px;
+   }
+   .works{
+       font-family: $font-regular;
+       font-size: 26px;
+       color: $color-text-6;
+       margin-top: 67px;
+   }
+    .shade{
+       background: url(../img/Shade.png) no-repeat 30% 30%;
+   }
+   .liner{
+       border-bottom: 1px dashed black;
+       width: 1105px;
+   }
+   .order{
+       text-transform: uppercase;
+       font-family: $font-regular;
+       color: $color-text-7;
+   }
+   .ordering{
+    height: 533px;
+    padding-top: 28px;
+   }
+   .paper{
+       color: $color-text-5;
+       font-family: $font-regular;
+       font-weight: 300;
+   }
+   .advantage_block .icon_1 {
+    // background: url(../img/icon1.png) no-repeat 50% 30%;
+    
+}
+.advantage_block .icon_2 {
+    // background: url(../img/icon2.png) no-repeat 50% 30%;
+    
+}
+.advantage_block .icon_3 {
+    // background: url(../img/icon3.png) no-repeat 50% 30%;
+    
+}
+.advantage_block .icon_4 {
+    // background: url(../img/icon4.png) no-repeat 50% 30%;
+    
+}
+.advantage_block .icon_5 {
+    // background: url(../img/icon5.png) no-repeat 50% 30%;
+    
+}
+.advantage_block .icon_6 {
+    // background: url(../img/icon6.png) no-repeat 50% 30%;
+    
+}
+  .list{
+      padding-top: 16px;
+  }
+   .list li{
+       list-style-type: none;
+       list-style: url(../img/ic_next.png);
+       text-align: justify;
+       color: $color-text-3;
+       font-family: $font-light;
+       font-size: 13px;
+       padding: 3px;
+   }
+   .btn-read-more{
+       border: none;
+       background: $color-primary-7;
+       color: $color-text-6;
+       height: 45px;
+       width: 180px;
+       font-family: $font-semi_bold;
+       text-transform: uppercase;
+       cursor: pointer;
+   }
+   .text2{
+    text-align: justify;
+    color: $color-text-3;
+    font-family: $font-light;
+    font-size: 13px;
+    padding: 16px;
+   }
+   .footer-botom{
+       background: $color-primary-7 ;
+       height: 229px;
+       margin-top: 36px;
+      z-index: 1;
+     @media screen and (max-width: 1200px) {
+         display: none;
+     }  
+   }
+   
+  
+   .text5{
+       color: $color-text-6;
+       margin: 0px;
+       margin-left: 25px;
+   }
+   .text-wrapper1{
+    border: 2px solid #ffffff;
+    height: 160px;
+    margin-top: 23px;
+    
+   }
+   .text4{
+       color: $color-text-6;
+       font-family: $font-light;
+       font-size: 11px;
+       text-align: center;
+       padding: 20px;
+   }
+   .logo1{
+       height: 145px;
+   }
+   .middle-footer{
+       background: $color-primary-8;
+       height: 65px;
+       z-index: 0;
+
+       @media screen and (max-width: 1200px) {
+        background: $color-primary-7;
+    }  
+   }
+   .brend{
+    color: #d74774;
+    text-align: center;
+    font-family: $font-regular;
+    font-size: 30px;
+
+   }
+.social__text{
+    color: $color-text-6;
+    font-family: $font-regular;
+}
+.social__icons{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+    margin-top: 11px;
+}
+   
+    .socials__twitter{
+        width: 39px;
+        height: 40px;
+        background: url(../img/tw.png);
+       
+    }
+    .socials__facebook{
+        width: 39px;
+        height: 40px;
+        background: url(../img/f.png);
+        
+    }
+   .copy-write{
+       color: $color-text-6;
+       font-family: $font-regular;
+     
+   }

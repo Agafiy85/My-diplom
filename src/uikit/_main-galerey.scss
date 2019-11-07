@@ -1,0 +1,137 @@
+.about_us{
+    background: $color-primary-6;
+    // height: 70px;
+    margin-top: 22px;
+}
+.title2{
+    color: $color-text-6;
+    text-transform: uppercase;
+    font-family: $font-semi_bold;
+    font-size: 20px;
+}
+.when-title{
+    background: $color-primary-7;
+    height: 43px;
+}
+.title_us{
+    font-family: $font-regular;
+    color: $color-text-6;
+    font-size: 20px;
+}
+.align-items-start{
+    background: $color-primary-9;
+}
+.list .list_item{
+    font-family: $font-light;
+    font-size: 12px;
+}
+
+.cap-title-section{
+    background: $color-primary-7;
+    height: 43px;
+    margin-top: 31px;
+}
+.title_us{
+    text-align: center;
+}
+.content-section{
+    background: $color-primary-6;
+}
+.list3 li{
+    list-style-type: none;
+    color: $color-text-6;
+    font-family: $font-light;
+    font-size: 12px;
+    padding: 3px;
+}
+.title3{
+    font-family: $font-regular;
+    color: $color-text-5;
+}
+.why_us{
+    margin-top: 33px;
+}
+.cap_title{
+    font-family: $font-regular;
+    color: $color-text-5;
+    margin: 0px;
+}
+.text6{
+    font-family: $font-light;
+    text-align: justify;
+    color: $color-text-4;
+    font-size: 13px;
+}
+address{
+    font-family:  $font-regular;
+    color: $color-text-5;
+    font-size: 13px;
+}
+.main-form-title-wrapper{
+    background: $color-primary-7;
+    margin-top: 23px;
+}
+.title_contact{
+    color: $color-text-6;
+    font-family: $font-regular;
+    font-size: 20px;
+    padding-top: 8px;
+}
+.main-content{
+    background: $color-primary-6;
+    height: 308px;
+}
+form{
+    margin-top: 28px;
+}
+.form-control{
+    width: 432px;
+    height: 33px;
+}
+.col-form-label{
+    font-size: 11px;
+    font-family: $font-regular;
+    padding: 14px;
+}
+.form-control1{
+    width: 432px;
+    height: 70px;
+}
+.btn-send-wrapper{
+    padding: 14px;
+}
+.btn-send{
+    background: $color-primary-4;
+    border: 1px solid $color-text-6;
+    height: 42px;
+    width: 152px;
+    color: #ffffff;
+    margin-left: 399px;
+    font-family: $font-semi_bold;
+    text-transform: uppercase;
+}
+.last{
+    background: $color-primary-9;
+    margin-top: 36px;
+}
+.tel{
+    font-family: $font-regular;
+    color: $color-text-5;
+}
+.chat{
+    padding-left: 179px;
+}
+.btn-live-chat{
+    background: url('../img/icon.png') no-repeat 4% 50% ;
+    padding-left: 39px;
+
+    height: 42px;
+    width: 152px;
+    background-color: $color-primary-1;
+    color: #ffffff;
+    font-family: $font-semi_bold;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+}

@@ -1,0 +1,82 @@
+.blog-inner{
+    .data_comments{
+        border:  1px solid $color-primary-1;
+        margin-top: 70px;
+        border-style: dashed;
+    }
+        .mounth_block{
+           
+            background-color: $color-primary-4;
+            .mounth{
+                color: $color-text-6;
+                margin: 17px;
+                font-family: $font-regular;
+                text-transform: uppercase;
+                
+            }
+            .number_mounth{
+                color: $color-text-6;
+                font-size: 23px;
+                font-family: $font-regular;
+                text-transform: uppercase;
+            }
+            .year{
+                color: $color-text-6;
+                // margin: 0px;
+                font-family: $font-regular;
+            }
+        }
+        .comments_block{
+            height: 65px;
+            background-color: $color-primary-3;
+            .number_comments{
+                font-family: $font-regular;
+                text-transform: uppercase;
+                margin: 0px;
+                font-size: 19px;
+                color: $color-text-5;
+                margin-top: 11px;
+            }
+            .comments{
+                font-family: $font-regular;
+                text-transform: uppercase;
+                font-size: 17px;
+            }
+        }
+    }
+    .main-inner{
+        .img-blog{
+            margin-top: 70px;
+            background: url(../img/img_blog.png) no-repeat;
+            width: 920px;
+            height: 280px;
+           
+               
+            }
+        }
+        .name_person{
+            margin-top: 13px;
+        }
+        .name2{
+            font-family: $font-regular;
+            text-transform: uppercase;
+            color: $color-text-7;
+        }
+.text_blog{
+    margin-left: 193px;
+    text-align: justify;
+    font-family: $font-light;
+    font-size: 14px;
+    color: $color-text-7;
+    }
+    
+    .btn-reading{
+        margin-left: 193px;
+        height: 47px;
+    width: 203px;
+    background: #2a80b9;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    font-family: $font-bolt;
+    }
