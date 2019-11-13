@@ -1,0 +1,84 @@
+@import '../../uikit/colors';
+@import '../../style/fonts/fonts';
+
+
+.footer-botom{
+     background: $color-primary-7 ;
+    height: 229px;
+    margin-top: 36px;
+   z-index: 1;
+  @media screen and (max-width: 1200px) {
+      display: none;
+  }  
+}
+
+
+.text5{
+    color: $color-text-6;
+    margin: 0px;
+    margin-left: 25px;
+}
+.text-wrapper1{
+ border: 2px solid #ffffff;
+ height: 160px;
+ margin-top: 23px;
+ 
+}
+.text4{
+    color: $color-text-6;
+    font-family: $font-light;
+    font-size: 11px;
+    text-align: center;
+    padding: 20px;
+}
+.logo1{
+    // height: 145px;
+    background: url(../../style/img/logo1.png) no-repeat;
+    height: 216px;
+    width: 389px;
+}
+.middle-footer{
+    background: $color-primary-8;
+    height: 65px;
+    z-index: 0;
+
+    @media screen and (max-width: 1200px) {
+     background: $color-primary-7;
+ }  
+}
+.brend{
+ color: #602b3e;
+ text-align: center;
+ font-family: $font-regular;
+ font-size: 30px;
+
+}
+.social__text{
+ color: $color-text-6;
+ font-family: $font-regular;
+}
+.social__icons{
+ display: flex;
+ justify-content: flex-start;
+ align-items: center;
+ padding-left: 20px;
+ margin-top: 11px;
+}
+
+//  .socials__twitter{
+//      width: 39px;
+//      height: 40px;
+//      background: url(../img/tw.png);
+    
+//  }
+ .socials__facebook{
+     width: 39px;
+     height: 40px;
+     background: url(../../style/img/f.png);
+     
+ }
+.copy-write{
+    color: $color-text-6;
+    font-family: $font-regular;
+  
+}

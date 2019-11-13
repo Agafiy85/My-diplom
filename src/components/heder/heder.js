@@ -1,5 +1,6 @@
 import React from 'react';
 import "./heder.scss";
+import { BrowserRouter as Link } from "react-router-dom";
 
 
 
@@ -40,20 +41,20 @@ class Heder extends React.Component {
                     <div class="row for-xl-logo-nav">
                         <div class=" head col-xl-3 col-lg-12 col-md-12 col-sm-6 col-9 col-xs-center">
                             <div class="logo">
-                                <img src="../img/logo1.png" alt="logo" />
+                                {/* <img src="../../style/img/logo1.png" alt="logo" /> */}
                             </div>
                         </div>
                         <div class="col-xl-9 col-lg-12 col-md-12 col-sm-6 col-3 col-xs-hiden">
                             <nav>
                                 <ul class="nav__list">
-                                    <li><a href="index.html">Home</a></li>
-                                    <li><a href="galerey.html">Galerey</a>
+                                    <li><Link to="/Home">Home</Link></li>
+                                    <li><Link to="/Home">Galerey</Link>
                                     </li>
 
-                                    <li><a href="Blog.html">Blog</a>
+                                    <li><Link to="/Home">Blog</Link>
                                     </li>
 
-                                    <li><a href="Login.html">Login</a>
+                                    <li><Link to="/Home">login</Link>
                                     </li>
                                 </ul>
                             </nav>
@@ -68,10 +69,10 @@ class Heder extends React.Component {
                             <span></span>
 
                             <ul id="menu">
-                                <a href="index.html"><li>Home</li></a>
-                                <a href="galerey.html"><li>Galerey</li></a>
-                                <a href="Blog.html"><li>Blog</li></a>
-                                <a href="Login.html"><li>Login</li></a>
+                                <a href="index"><li>Home</li></a>
+                                <a href="galerey"><li>Galerey</li></a>
+                                <a href="Blog"><li>Blog</li></a>
+                                <a href="Login"><li>Login</li></a>
 
                             </ul>
                         </div>
